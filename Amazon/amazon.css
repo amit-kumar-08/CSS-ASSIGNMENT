@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: calc(100vw-16px);
+    height: 100px;
+    color: white;
+    /* border: 2px solid; */
+    position: sticky;
+    top: 0;
+}
+
+.up{
+    display: flex;
+    background-color: #121921;
+    height: 60px;
+    gap:1%
+
+}
+.div1 img{
+    position: relative;
+    top: 5px;
+}
+
+.div2{
+    display:flex;
+    align-items: flex-end;
+    position: relative;
+    bottom: 10px;
+}
+
+.div3{
+    height: 40px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    top: 10px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.div13{
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    box-shadow: gray 0px 0px 2px;
+    border-right:1px solid rgb(176, 175, 175);
+}
+
+.div23{
+    width: 550px;
+}
+
+.div33{
+    width: 55px;
+    background-color: #FBBE67;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div4{
+    position: relative;
+    top: 23px;
+}
+
+.div5{
+    position: relative;
+    top: 8px;
+}
+
+.div6{
+    position: relative;
+    top: 10px;
+}
+
+.div7{
+    display: flex;
+    position: relative;
+    top: 10px;
+
+}
+.div7 img{
+    height: 35px;
+} 
+.div7 p{
+    position: relative;
+    top: 18px;
+} 
+
+.dowm{
+    background-color:#243040 ;
+    /* width: 100vw; */
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12vw;
+}
+.ham{
+    display: flex;
+}
+
+.div11{
+    display: flex;
+    gap: 12px;
+    font-size: 13px;
+}
+
+.div21{
+    width: 25.5vw;
+    display: flex;
+    justify-content: space-between ;
+}
+.lion{
+    position: relative;
+    top: 3px;
+}
+
+.lion img{
+    height: 40px;
+
+}
+
+.div221 div{
+    display: flex;
+    
+}
+
+.div222{
+    display: flex;
+}
+.div222 img{
+   height: 39px;
+   position: relative;
+   top: 2px;
+}
+
+.location img{
+    width: 20px;
+    
+}
+
+.bodymain{
+    /* display: flex; */
+    justify-content: center;
+    width: inherit;
+    height: 100vh;
+    background-image: url(assets/background\ picture.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.arrow{
+    width: 92vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    align-items: center;
+    margin-left: 3vw;
+}
+
+.content{
+    width: calc(100vw-16px);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first{
+    background-color: white;
+    width: 320px;
+    height: 360px;
+    /* border: 1px solid; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.second{
+    background-color: white;
+    width: 320px;
+    /* border: 1px solid; */
+    height: 360px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.third{
+    background-color: white;
+    width: 320px;
+    height: 360px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.forth{
+    /* background-color: rgb(133, 57, 57); */
+    width: 320px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.div1718{
+    display: flex;
+    /* justify-content: space-between; */
+    gap:20px;
+}
+.div17 img{
+    height: 90px;
+}
+.div17{
+   font-size: 14px;
+}
+
+.div18 img{
+    height: 90px;
+}
+.div18{
+   font-size: 14px;
+}
+
+.div19 img{
+    height: 90px;
+}
+.div19{
+   font-size: 14px;
+}
+
+.div20 img{
+    height: 90px;
+}
+.div20{
+   font-size: 14px;
+}
+
+.div1920{
+    display: flex;
+    /* justify-content: space-between; */
+    gap:20px;
+
+}
+
+.div1920+div p{
+    color: green;
+}
+
+.upgrade{
+    font-size: 22px;
+}
+
+.div26 img{
+    height: 270px;
+    
+}
+.div26{
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.divp{
+    margin: 10px;
+    color: green;
+}
+
+.signin{
+    width: 320px;
+    height: 150px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.butt{
+    font-size: small;
+    /* width: 260px; */
+    padding: 10px 90px;
+    border-radius: 10px;
+    border: none;
+    background-color: yellow;
+    display: flex;
+    margin-top: 20px;
+    justify-self: center;
+    color: #f25b04;
+}
+
+.upgr{
+    font-size: 22px;
+}
+
+.last{
+    height: 190px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}

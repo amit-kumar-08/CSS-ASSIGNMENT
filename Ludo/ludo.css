@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 5px 10px 25px  gray;
+}
+
+.main>div{
+    display: flex;
+}
+
+.homered{
+    border:40px solid red;
+    background-color: white;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.homeblue{
+    border:40px solid blue;
+    background-color: white;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.homeyellow{
+    border:40px solid  rgb(243, 217, 21);
+    width: 240px;
+    background-color: white;
+    height: 240px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.homegreen{
+    border:40px solid green;
+    background-color: white;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+}
+.greenpath{
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.greenpath>div{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    
+    
+}
+.green{
+    background-color: green; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redpath{
+    height: 120px;
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.redpath>div{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+.red{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellowpath{
+    height: 120px;
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.yellowpath>div{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+.yellow{
+    background-color: rgb(243, 217, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bluepath{
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bluepath>div{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+.blue{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.midd{
+    width: 120px;
+    height:120px;
+    background-color:rgb(243, 217, 21) ;
+    position: relative;
+}
+.pause{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homered>div{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 45%;
+
+}
+
+.homeblue>div{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 45%;
+}
+
+.homeyellow>div{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(243, 217, 21);
+    border-radius: 45%;
+}
+
+.homegreen>div{
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border-radius: 45%;
+}
+
+.greenmidd{
+    width: inherit;
+    height: 60px;
+    background-color: green;
+
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.redmidd{
+    width: 60px;
+    height: inherit;
+    background-color: red;
+
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    position: absolute;
+    top: 0px;
+
+}
+
+.bluemidd{
+    width: inherit;
+    height: 60px;
+    background-color: blue;
+
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    position: absolute;
+    /* top: 0px; */
+
+}
+
+/* .wh, .pause{
+    background-color: white;
+} */
