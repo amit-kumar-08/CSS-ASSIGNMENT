@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="netflix.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-left">
+            <a href="#" class="logo">
+                <img src="assets/NetflixLogoSvg.png" alt="Netflix">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Start</a></li>
+                <li><a href="#">Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <button class="nav-icon-btn" title="Search">
+                <img src="assets/Search.png" alt="Search">
+            </button>
+            <button class="nav-icon-btn" title="Gifts">
+                <img src="assets/GiftBox.png" alt="Gift">
+            </button>
+            <button class="nav-icon-btn" title="Notifications">
+                <img src="assets/NotificationBell.png" alt="Notifications">
+            </button>
+            <div class="profile-box">
+                <img src="assets/ProfileIMG.png" alt="Profile" class="profile-pic">
+                <img src="assets/DownArrow.png" alt="Dropdown" class="down-arrow">
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="banner">
+        <div class="banner-gradient"></div>
+        <div class="banner-content">
+            <div class="show-tag">
+                <img src="assets/Netflix_Symbol_RGB 1.png" alt="Netflix" class="tag-logo">
+                <span>SHOW</span>
+            </div>
+            <h1 class="banner-title">MAID</h1>
+            <div class="banner-buttons">
+                <button class="btn btn-play">
+                    <img src="assets/Play.png" alt="Play" class="btn-icon">
+                    Play
+                </button>
+                <button class="btn btn-info">
+                    <img src="assets/Detail.png" alt="Info" class="btn-icon">
+                    More info
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content: Movie Rows -->
+    <main class="content">
+
+        <!-- Row 1: See again -->
+        <section class="row">
+            <h2 class="row-title">
+                <a href="#">See again <span class="arrow">&gt;</span></a>
+            </h2>
+            <div class="row-cards-wrapper">
+                <div class="row-cards">
+                    <div class="card">
+                        <img src="assets/section 1.1.png" alt="You">
+                    </div>
+                    <div class="card">
+                        <img src="assets/section 1.2.png" alt="Snowpiercer">
+                    </div>
+                    <div class="card">
+                        <img src="assets/section 1.3.png" alt="The Universe">
+                    </div>
+                    <div class="card">
+                        <img src="assets/section 1.4.png" alt="The Last Kingdom">
+                    </div>
+                    <div class="card">
+                        <img src="assets/section 1.5.png" alt="Money Heist">
+                    </div>
+                </div>
+                <button class="circle-btn" title="See more">
+                    <img src="assets/Add.png" alt="Add">
+                </button>
+            </div>
+        </section>
+
+        <!-- Row 2: Top 10 in your country -->
+        <section class="row top10-row">
+            <h2 class="row-title">
+                <a href="#">Top 10 in your country <span class="arrow">&gt;</span></a>
+            </h2>
+            <div class="row-cards top10-cards">
+                <div class="top10-item">
+                    <img src="assets/Rank - 01.png" alt="1" class="rank-num">
+                    <img src="assets/section 2.1.png" alt="Red Notice" class="top10-img">
+                </div>
+                <div class="top10-item">
+                    <img src="assets/Rank - 02.png" alt="2" class="rank-num">
+                    <img src="assets/section 2.2.png" alt="Jason Bourne" class="top10-img">
+                </div>
+                <div class="top10-item">
+                    <img src="assets/Rank - 03.png" alt="3" class="rank-num">
+                    <img src="assets/section 2.3.png" alt="Squid Game" class="top10-img">
+                </div>
+                <div class="top10-item">
+                    <img src="assets/Rank - 04.png" alt="4" class="rank-num">
+                    <img src="assets/section 2.4.png" alt="Central Intelligence" class="top10-img">
+                </div>
+                <div class="top10-item">
+                    <img src="assets/Rank - 05.png" alt="5" class="rank-num">
+                    <img src="assets/section 2.5.png" alt="Hellbound" class="top10-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Row 3: Trending now -->
+        <section class="row">
+            <h2 class="row-title">
+                <a href="#">Trending now <span class="arrow">&gt;</span></a>
+            </h2>
+            <div class="row-cards">
+                <div class="card">
+                    <img src="assets/section 3.1.png" alt="Explained">
+                </div>
+                <div class="card">
+                    <img src="assets/section 3.2.png" alt="Into the Night">
+                </div>
+                <div class="card">
+                    <img src="assets/section 3.3.png" alt="Locke & Key">
+                </div>
+                <div class="card">
+                    <img src="assets/section 3.4.png" alt="The Queen's Gambit">
+                </div>
+                <div class="card">
+                    <img src="assets/section 3.5.png" alt="The Crown">
+                </div>
+            </div>
+        </section>
+
+        <!-- Row 4: Sci-fi shows -->
+        <section class="row">
+            <h2 class="row-title">
+                <a href="#">Sci-fi shows <span class="arrow">&gt;</span></a>
+            </h2>
+            <div class="row-cards">
+                <div class="card">
+                    <img src="assets/section 4.1.png" alt="Altered Carbon">
+                </div>
+                <div class="card">
+                    <img src="assets/section 4.2.png" alt="Another Life">
+                </div>
+                <div class="card">
+                    <img src="assets/section 4.3.png" alt="The Umbrella Academy">
+                </div>
+                <div class="card">
+                    <img src="assets/section 4.4.png" alt="Sense8">
+                </div>
+                <div class="card">
+                    <img src="assets/section 4.5.png" alt="The Rain">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <!-- Social Icons -->
+            <div class="social-links">
+                <a href="#"><img src="assets/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="assets/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="assets/youtube.png" alt="YouTube"></a>
+            </div>
+
+            <!-- Footer Columns -->
+            <div class="footer-links">
+                <div class="footer-column">
+                    <a href="#">Seslendirme ve Alt Yazı</a>
+                    <a href="#">Medya Merkezi</a>
+                    <a href="#">Gizlilik</a>
+                    <a href="#">Bize Ulaşın</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Sesli Betimleme</a>
+                    <a href="#">Yatırımcı İlişkileri</a>
+                    <a href="#">Yasal Hükümler</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Yardım Merkezi</a>
+                    <a href="#">İş İmkanları</a>
+                    <a href="#">Çerez Tercihleri</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Hediye Kartları</a>
+                    <a href="#">Kullanım Koşulları</a>
+                    <a href="#">Kurumsal Bilgiler</a>
+                </div>
+            </div>
+
+            <!-- Service Code Button -->
+            <button class="service-btn">Hizmet Kodu</button>
+
+            <!-- Copyright -->
+            <p class="copyright">&copy; 1997 - 2021 Netflix, Inc. {i-082cb73e0ee09c242}</p>
+        </div>
+    </footer>
+
+</body>
+</html>
