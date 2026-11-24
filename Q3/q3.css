@@ -1,0 +1,35 @@
+.dashboard {
+  display: flex;
+  flex-direction: row; /* From column to row */
+  width: 1000px;
+  height: 400px;
+  gap: 15px;
+  align-items: stretch; /* From center to stretch */
+}
+
+.sidebar {
+  flex: 0 0 200px; /* From 1 1 200px */
+  background: #ddd;
+}
+
+.main-content {
+  flex: 1 1 0; /* From 0 0 200px */
+  min-width: 0;
+  overflow-wrap: anywhere;
+  background: #e8f0ff;
+}
+
+.activity-panel {
+  flex: 0 0 250px; /* From 1 1 250px */
+  background: #eee;
+  align-self: flex-start; /* From auto to flex-start */
+}
+
+.dashboard > * {
+  padding: 15px;
+}
+
+/* At 1000px, main content gets more space. */
+/* At 700px, main content shrinks. */
+/* The sidebar and activity panel try to keep their widths. */
+/* If the container becomes too narrow, the layout may overflow. */
