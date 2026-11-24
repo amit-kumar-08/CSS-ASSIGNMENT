@@ -1,26 +1,26 @@
-*{
-    box-sizing: border-box;
-}
+
+/* Question-2 */
+
 .products {
-  display: flex;
+  display: flex; /* From block to flex */
+  flex-direction: row;
+  flex-wrap: wrap; /* From nowrap to wrap */
+  justify-content: flex-start; /* From center to flex-start */
+  align-content: flex-start; /* From center to flex-start */
+  align-items: stretch;
   width: 900px;
   height: 500px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: flex-start;
   gap: 20px;
-  border: 2px solid;
+  margin: auto;  /*Add Margin Auto*/
 }
 
 .product {
-  width: 280px;
+  width: 250px; /* From 280px to 250px */
   height: 300px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column; /* From row to column */
+  justify-content: flex-start; /* From space-between to flex-start */
+  align-items: stretch;
   padding: 15px;
   border: 1px solid #ccc;
 }
@@ -31,6 +31,18 @@
   object-fit: cover;
 }
 
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  margin: 0 0 10px;
+}
+
+.product strong {
+  margin-top: auto; /* Pushes price toward bottom */
+}
+
 .product button {
-  margin-top: auto;
+  margin-top: 10px; /* Adds space above button */
 }
