@@ -3,3 +3,86 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.main{
+    height: 100vh;
+    background-size: 100% ;
+    background-image: url(backgroud.png);
+}
+
+.main img{
+    position: absolute;
+    right: 4% ;
+    top: 4%;
+}
+h1{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 4vw;
+    font-family: sans-serif;
+    text-shadow: 0px 3px 4px rgb(131, 130, 130);
+}
+p{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    color: rgb(98, 98, 98);
+    font-size: 25px;
+    font-weight:100;
+    text-shadow: 0 1px 2px gray;
+    letter-spacing: 2%;
+    word-spacing: 5%;
+    
+}
+.scorecard{
+    width: 65vw;
+    height: 60vh;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    background-color: rgb(255, 255, 255);
+    font-size: 19px;
+    box-shadow: 0 5px 5px gray;
+}
+.scorecard,td,th {
+    border-collapse: collapse;
+}
+tr{
+    border-top: 2px solid #D5D5D5;
+}
+
+.up{
+    background-color: #F05136;
+    color: white;
+    border: none;
+}
+
+.up th{
+    text-align: left;
+}
+
+.col1{
+    padding-left: 2%;
+}
+
+.bat{
+    border: none;
+}
+
+.name{
+    color:  blue;
+}
+
+.last{
+    width: 8%;
+}
+
+.out{
+    color: gray;
+    padding-left: 4%;
+    font-size: 16px;
+}
+.las{
+    width: 6%;
+}
